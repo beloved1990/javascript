@@ -1,3 +1,5 @@
+// This code checks if a number is even or odd.
+
 let number = 9;
 if (number % 3===1  ){
  console.log(number + " is Even")
@@ -26,3 +28,5 @@ if (c % 2===1 ){
 }else {
  console.log(c + " is Odd")
 }
+
+ 
