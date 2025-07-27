@@ -11,8 +11,8 @@ let b = 20;
     console.log("The difference between  d   and   c   is: ",difference);
 
     //another method of subtraction
-let e = 25;
- let f = 50;
+let e = 50;
+ let f = 25;
  let differences= e - f;
     console.log("The differences between  e   and   f   is: ",differences);
 

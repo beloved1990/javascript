@@ -1,6 +1,6 @@
 
 
-let age = 13;
+let age = 20;
 let hasID = true;
 if (age >= 15 && hasID) {
     console.log("You can enter the club.");
