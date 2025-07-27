@@ -1,6 +1,6 @@
 
 // Write a program that will console log the grade of student after addition the exam score and test score
-
+/*
 let examScore = 10;
 let testScore = 10;
 let totalScore = examScore + testScore;
@@ -32,3 +32,84 @@ else if(totalScore>=20){
 
 console.log("totalScore:", totalScore);
 console.log("Grade:", grade);
+*/
+
+/*
+//switch case example
+let day = 7;
+switch(day) {
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("Friday");
+        break;
+    case 6:
+        console.log("Saturday");
+        break;
+    
+    default:
+        console.log("Invalid day");
+}
+*/
+
+/*
+// Example of a simple calculator using switch case
+let num1 = 100;
+let num2 = 12;
+let operator = "*";
+switch(operator) {
+    case "+":
+        console.log("Result:", num1 + num2);
+        break;
+    case "-":
+        console.log("Result:", num1 - num2);
+        break;
+    case "*":
+        console.log("Result:", num1 * num2);
+        break;
+    case "/":
+        if(num2 !== 0) {
+            console.log("Result:", num1 / num2);
+        } else {
+            console.log("Cannot divide by zero");
+        }
+        break;
+    default:
+        console.log("Invalid operator");
+}
+
+*/
+
+
+// Example of a simple calculator using if-else
+let num1 = 100;
+let num2 = 0;  
+let operator = "/";
+if(operator === "+") {      
+    console.log("Result:", num1 + num2);
+}
+else if(operator === "-") {
+    console.log("Result:", num1 - num2);
+}
+else if(operator === "*") {
+    console.log("Result:", num1 * num2);
+}
+else if(operator === "/") {
+    if(num2 !== 0) {
+        console.log("Result:", num1 / num2);
+    } else {
+        console.log("Cannot divide by zero");
+    }
+} else {
+    console.log("Invalid operator");
+}
